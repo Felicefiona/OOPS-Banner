@@ -1,0 +1,20 @@
+import java.util.*;
+
+class ArrayEx{
+	int roll[]={10,20,30};
+	public void Arraym1(){
+		for(int i=1;i<roll.length();i++){
+			System.out.println(roll[i]);
+		}
+	}
+}
+
+public class ArrayExample{
+	public static void main(String arg[]){
+		ArrayEx=new ArrayEx();
+		System.out.println("Calling an array" + ob.roll[0]);
+		System.out.println("Calling an array" + ob.roll[1]);
+		System.out.println("Calling an array" + ob.roll[2]);
+		ob.Arraym1();
+	}
+}
